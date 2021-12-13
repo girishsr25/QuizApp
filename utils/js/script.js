@@ -18,7 +18,7 @@ function myFunction() {
 
 function startQuiz() {
 	
-	theForm.style.display = 'none'; // hide the password form
+	theForm.style.display = 'none'; 
 	theQuiz.style.display = 'block'; // show the quiz page
 	prev.style.display = 'block';
 	randomQ(); // trigger first question
@@ -91,7 +91,7 @@ function next() {
 }
 
 //write a function to go to the previous question
-function prev() {
+function previous() {
     // user clicks PREV...
     if (queDone == 0) {
         // if already at the first question
